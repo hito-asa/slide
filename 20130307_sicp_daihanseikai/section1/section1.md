@@ -57,6 +57,12 @@
 * 予習していない場合は**<font color="red">ランチ募金</font>** <small>（※事情による）</small>
 
 !SLIDE
+ ![bokin](section1/bokin.jpg)
+
+!SLIDE
+ ![bokinthread](section1/bokinthread.png)
+
+!SLIDE
 ## 経過（第2期）
 * 2013/02/04 再開、最初からやり直す決定
 * 2013/02/18 第2期 第1回 1.1
