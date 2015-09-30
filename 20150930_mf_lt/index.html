@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Title</title>
+    <meta charset="utf-8">
+    <style>
+      body {
+        font-family: '+CF+natural-girl';
+      }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+        font-size: 1.6em;
+      }
+      .inverse {
+        background: #272822;
+        color: #f3f3f3;
+      }
+      .remark-code-line {
+        font-size: 1.8em;
+      }
+      .largecode .remark-code-line {
+        font-size: 2.2em;
+      }
+      .xsmall {
+        font-size: 0.5em;
+      }
+      .small {
+        font-size: 0.8em;
+      }
+      .xlarge {
+        font-size: 3em;
+      }
+      .large {
+        font-size: 1.5em;
+      }
+      .em {
+        font-size: 1.5em;
+        font-weight: bold;
+        color: red;
+      }
+      h1, h2, h3 {
+      }
+      .remark-slide h1 {
+        font-size: 4em;
+        line-height: 1.2em;
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-top: 0;
+        padding-bottom: 0;
+      }
+      .remark-slide ul {
+        font-size: 2em;
+        line-height: 1.6em;
+      }
+      .remark-slide ul ul {
+        font-size: 1em;
+      }
+      .remark-slide p img {
+        max-width: 100%;
+      }
+      .remark-code, .remark-inline-code { font-family: 'Ubuntu Mono'; }
+    </style>
+  </head>
+  <body>
+    <script src="remark-latest.min.js">
+    </script>
+    <script>
+      var slideshow = remark.create({
+        sourceUrl: 'slide.md',
+        ratio: '16:9',
+        navigation: {scroll: true, touch: false, click: false},
+        slideNumberFormat: '%current% of %total%'
+      });
+    </script>
+  </body>
+</html>
+
